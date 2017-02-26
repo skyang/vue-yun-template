@@ -1,0 +1,11 @@
+{
+    "name": "vue-cli-yun-template",
+    "version": "0.0.1",
+    "author": "haoyang_hu<hhyuestc@gmail.com>",
+    "description": "A full-featured Webpack setup with hot-reload, lint-on-save, unit testing & css extraction.",
+    "scripts": {
+    },
+    "devDependencies": {
+        "vue-cli": "^2.8.1"
+    }
+}

@@ -1,6 +1,3 @@
-# vue-yun-template
-A vue template for quick start.
-
 # yun_template
 
 > A Vue.js project
@@ -8,10 +5,6 @@ A vue template for quick start.
 ## Build Setup
 
 ``` bash
-
-# init project
-vue init skyang/vue-yun-template your_project
-
 # install dependencies
 npm install
 
@@ -24,8 +17,14 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 
+# run unit tests
+npm run unit
+
+# run e2e tests
+npm run e2e
+
+# run all tests
+npm test
 ```
 
-## License
-
-[MIT](http://opensource.org/licenses/MIT)
+For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
