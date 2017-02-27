@@ -2,10 +2,9 @@
 import http from 'api/http'
 
 export const getUserInfo = ({ commit }) => {
-    http.fetch('user/userInfos', {
-        type: 'GET'
-    }).then(function (res) {
+    console.log(http)
+    http.get('user/userInfos').end((err, res) => {
+        console.log(err)
         console.log(res)
-        commit('SET_USER_INFO', res.body.data)
     })
 }

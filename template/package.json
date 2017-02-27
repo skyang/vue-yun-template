@@ -1,8 +1,8 @@
 {
-  "name": "yun_template",
+  "name": "{{ name }}",
   "version": "1.0.0",
-  "description": "A Vue.js project",
-  "author": "haoyang_hu <hhyuestc@gmail.com>",
+  "description": "{{ description }}",
+  "author": "{{ author }}",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",

@@ -45,7 +45,7 @@ module.exports = {
      * @returns {*}
      */
     extend (to, _from) {
-        for (var key in _from) {
+        for (let key in _from) {
             to[key] = _from[key]
         }
         return to

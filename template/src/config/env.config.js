@@ -1,12 +1,11 @@
 let ENV = {
-    apiURL: 'http://192.168.22.144',
-    serverRootUrl: '/',
-    moduleName: 'attendance-web',
+    serverRootUrl: '{{ serverRootUrl }}',
+    moduleName: '',
     version: '1.0',
     environment: process.env.NODE_ENV,
     defaultLocale: 'zh',
-    apiNameSpace: 'rest',
-    hostEndpoint: 'attendance',
+    apiNameSpace: '',
+    hostEndpoint: '',
     routeRootPath: null
 }
 

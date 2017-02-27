@@ -7,7 +7,12 @@ A vue template for quick start.
 
 ## Build Setup
 
+First,you shall install [vue-cli](https://github.com/vuejs/vue-cli).
+
 ``` bash
+
+# install vue-cli
+npm install -g vue-cli
 
 # init project
 vue init skyang/vue-yun-template your_project
