@@ -28,6 +28,10 @@ module.exports = {
             "type": "string",
             "message": "Ajax request server root url",
             "default": "http://localhost:8089/"
+        },
+        "yunui": {
+            "type": "confirm",
+            "message": "Install yun-ui?"
         }
         // TODO:不同的环境设置
         // "build": {
@@ -94,6 +98,5 @@ module.exports = {
     //     "test/e2e/**/*": "e2e",
     //     "src/router/**/*": "router"
     // },
-    "completeMessage":
-        "To get started:\n\n  {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}npm install\n  npm run dev\n\nDocumentation can be found at https://github.com/skyang/vue-yun-template\n\nIf you need request data,please use proxyTable,documentation can be found at https://vuejs-templates.github.io/webpack/proxy.html"
+    "completeMessage": "To get started:\n\n  {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}npm install\n  npm run dev\n\nDocumentation can be found at https://github.com/skyang/vue-yun-template\n\nIf you need request data,please use proxyTable,documentation can be found at https://vuejs-templates.github.io/webpack/proxy.html"
 }

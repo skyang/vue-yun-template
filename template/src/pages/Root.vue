@@ -1,6 +1,9 @@
 <template>
     <div class="wrap">
         Root
+        {{#yunui}}
+        <y-button>Root</y-button>
+        {{/yunui}}
         <router-view></router-view>
     </div>
 </template>
